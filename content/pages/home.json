@@ -158,6 +158,162 @@
       ]
     },
     {
+      "id": "sec_vy5ex3x84b",
+      "preset": "faq/split@1",
+      "label": "Questions beside heading",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            4,
+            8
+          ],
+          "m": [
+            12
+          ]
+        },
+        "gap": "2xl"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_3bj7vbw7fd",
+          "type": "heading",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "text": "Good to know before you visit",
+            "level": "h2",
+            "size": "auto",
+            "eyebrow": "FAQ"
+          },
+          "variant": "plain"
+        },
+        {
+          "id": "blk_2r0wt0d1ag",
+          "type": "text",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Can't find what you're looking for? We're happy to help."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "variant": "default"
+        },
+        {
+          "id": "blk_jb01g5hn3g",
+          "type": "button",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "label": "Get in touch",
+            "link": {
+              "type": "url",
+              "url": "/contact"
+            },
+            "role": "secondary"
+          },
+          "variant": "default"
+        },
+        {
+          "id": "blk_2tqj1x9wpf",
+          "type": "accordion",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "items": [
+              {
+                "question": "Do I need to book?",
+                "answer": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "We keep half the tables for walk-ins. For groups of six or more, please book ahead."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "question": "Do you cater for allergies?",
+                "answer": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Yes. Tell your server and the kitchen will walk you through every dish. Most of the menu can be made gluten-free."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "question": "Is there parking?",
+                "answer": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "There's free street parking after 6pm and a public lot two minutes' walk away on Ash Street."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "question": "Can I bring my dog?",
+                "answer": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Well-behaved dogs are very welcome on the patio, and there's always a water bowl by the door."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "exclusive": false,
+            "openFirst": true,
+            "faqSchema": true
+          },
+          "variant": "lines"
+        }
+      ]
+    },
+    {
       "id": "sec_85tgsawzaj",
       "preset": "products/grid@1",
       "label": "Product grid",
