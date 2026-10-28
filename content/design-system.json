@@ -1,0 +1,178 @@
+{
+  "$schema": "https://schema.openspace.host/v1/design-system.json",
+  "version": 1,
+  "brief": {
+    "about": "Teal House Pottery: a small ceramics studio in Portland selling handmade mugs and bowls, and running evening wheel-throwing classes.",
+    "audience": "Beginners who want a creative evening, and people looking for gifts",
+    "feeling": [
+      "calm",
+      "handmade"
+    ]
+  },
+  "brand": {
+    "name": "os-e2e-w4-teal",
+    "photos": [
+      "media/2026/10/pots-byg1f3.jpg",
+      "media/2026/10/garden-md5s8y.jpg"
+    ]
+  },
+  "tokens": {
+    "colors": {
+      "brand-primary": {
+        "value": "#1f7a7a",
+        "role": "brand"
+      },
+      "brand-accent": {
+        "value": "#e9a23b"
+      },
+      "neutral-background": {
+        "value": "#fbf7f0",
+        "role": "background"
+      },
+      "neutral-ink": {
+        "value": "#1d2b2b",
+        "role": "text"
+      }
+    },
+    "fonts": {
+      "heading": {
+        "family": "DM Serif Display",
+        "stack": "DM Serif Display",
+        "category": "serif",
+        "google": true
+      },
+      "body": {
+        "family": "Inter",
+        "stack": "Inter",
+        "category": "sans-serif",
+        "google": true
+      }
+    },
+    "type": {
+      "display": {
+        "size": 87.5,
+        "sizeMobile": 29,
+        "lineHeight": 1.05
+      },
+      "h1": {
+        "size": 56.8,
+        "sizeMobile": 25.3,
+        "lineHeight": 1.1
+      },
+      "h2": {
+        "size": 42.6,
+        "sizeMobile": 22.7,
+        "lineHeight": 1.15
+      },
+      "h3": {
+        "size": 32,
+        "sizeMobile": 20.1,
+        "lineHeight": 1.2
+      },
+      "h4": {
+        "size": 24,
+        "sizeMobile": 17.6,
+        "lineHeight": 1.3
+      },
+      "lead": {
+        "size": 20.8,
+        "sizeMobile": 16.4,
+        "lineHeight": 1.5
+      },
+      "body": {
+        "size": 18,
+        "sizeMobile": 15.3,
+        "lineHeight": 1.6
+      },
+      "small": {
+        "size": 14,
+        "lineHeight": 1.5
+      },
+      "eyebrow": {
+        "size": 14,
+        "lineHeight": 1.3
+      }
+    },
+    "space": {
+      "sectionPadding": 96
+    },
+    "radius": {
+      "card": 16
+    }
+  },
+  "mapping": {
+    "notes": [
+      "Started from the Kiln template; Claude makes it bespoke from here.",
+      "Read 4 colours, 2 font roles, 0 text sizes and the page spacing (W3C design tokens).",
+      "Your brand colour #1f7a7a leads the palette (buttons, links and accents).",
+      "Dark sections use your #1d2b2b as the ground with #fbf7f0 text.",
+      "Page background #fbf7f0, text #1d2b2b.",
+      "Your fonts (DM Serif Display, Inter) are used as they are — free on Google Fonts and published with the site.",
+      "Page rhythm kept, sections padded 96px.",
+      "Corners: round, as in your tokens.",
+      "6 colour pairings were nudged so all text stays readable (WCAG AA).",
+      "Body text contrast 13.7:1.",
+      "2 of your photos added (2 on the home page)."
+    ],
+    "contrast": [
+      {
+        "theme": "brand",
+        "role": "background",
+        "from": "#1f7a7a",
+        "to": "#187576",
+        "against": "text"
+      },
+      {
+        "theme": "brand",
+        "role": "success",
+        "from": "#b5f8c2",
+        "to": "#b6fac3",
+        "against": "background"
+      },
+      {
+        "theme": "brand",
+        "role": "warning",
+        "from": "#ffdeba",
+        "to": "#ffe6ca",
+        "against": "background"
+      },
+      {
+        "theme": "brand",
+        "role": "danger",
+        "from": "#ffdbd6",
+        "to": "#ffe4e0",
+        "against": "background"
+      },
+      {
+        "theme": "brand",
+        "role": "accent-hover",
+        "from": "#ebebeb",
+        "to": "#f2f2f2",
+        "against": "accent-text"
+      },
+      {
+        "theme": "brand",
+        "role": "accent-pressed",
+        "from": "#d7d7d7",
+        "to": "#f2f2f2",
+        "against": "accent-text"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "template",
+      "name": "Kiln"
+    },
+    {
+      "kind": "tokens",
+      "name": "tealhouse-design-system.json",
+      "format": "dtcg"
+    },
+    {
+      "kind": "photos",
+      "name": "2 photo(s)"
+    }
+  ],
+  "updatedAt": "2026-10-28T01:47:11.168Z"
+}

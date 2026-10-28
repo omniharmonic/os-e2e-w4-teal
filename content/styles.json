@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schema.openspace.host/v1/styles.json",
+  "choices": {
+    "palette": {
+      "brand": "#1f7a7a",
+      "neutral": "warm",
+      "contrast": "standard",
+      "source": "brand"
+    },
+    "pairing": "dm-serif-dm-sans",
+    "density": "comfortable",
+    "shape": "round",
+    "buttons": "solid",
+    "motion": "subtle",
+    "imageTreatment": "rounded",
+    "typography": {
+      "heading": {
+        "family": "DM Serif Display",
+        "category": "serif",
+        "italic": true
+      },
+      "body": {
+        "family": "Inter",
+        "category": "sans-serif"
+      }
+    },
+    "layout": {
+      "sectionPadding": 96
+    }
+  },
+  "overrides": {
+    "color": {
+      "background": {
+        "$value": "#fbf7f0",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#1d2b2b",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#1f7a7a",
+        "$type": "color"
+      },
+      "dark": {
+        "background": {
+          "$value": "#1d2b2b",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#fbf7f0",
+          "$type": "color"
+        },
+        "heading": {
+          "$value": "#fbf7f0",
+          "$type": "color"
+        }
+      }
+    }
+  }
+}

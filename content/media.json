@@ -1,0 +1,24 @@
+{
+  "media/2026/10/pots-byg1f3.jpg": {
+    "id": "med_byg1f3hy73",
+    "path": "media/2026/10/pots-byg1f3.jpg",
+    "kind": "image",
+    "mime": "image/jpeg",
+    "bytes": 15580,
+    "width": 800,
+    "height": 800,
+    "alt": "pots",
+    "createdAt": "2026-10-28T01:47:11.168Z"
+  },
+  "media/2026/10/garden-md5s8y.jpg": {
+    "id": "med_md5s8ym507",
+    "path": "media/2026/10/garden-md5s8y.jpg",
+    "kind": "image",
+    "mime": "image/jpeg",
+    "bytes": 28636,
+    "width": 1200,
+    "height": 800,
+    "alt": "garden",
+    "createdAt": "2026-10-28T01:47:11.168Z"
+  }
+}
