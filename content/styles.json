@@ -2,7 +2,7 @@
   "$schema": "https://schema.openspace.host/v1/styles.json",
   "choices": {
     "palette": {
-      "brand": "#1f7a7a",
+      "brand": "#a7c25a",
       "neutral": "warm",
       "contrast": "standard",
       "source": "brand"
@@ -10,7 +10,7 @@
     "pairing": "dm-serif-dm-sans",
     "density": "comfortable",
     "shape": "round",
-    "buttons": "solid",
+    "buttons": "pill-gradient",
     "motion": "subtle",
     "imageTreatment": "rounded",
     "typography": {
@@ -26,7 +26,8 @@
     },
     "layout": {
       "sectionPadding": 96
-    }
+    },
+    "appearance": "auto"
   },
   "overrides": {
     "color": {
@@ -53,6 +54,12 @@
         },
         "heading": {
           "$value": "#fbf7f0",
+          "$type": "color"
+        }
+      },
+      "light": {
+        "background": {
+          "$value": "#e9e6d2",
           "$type": "color"
         }
       }
