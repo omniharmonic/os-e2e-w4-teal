@@ -21,8 +21,9 @@
         "italic": true
       },
       "body": {
-        "family": "Inter",
-        "category": "sans-serif"
+        "family": "Fraunces",
+        "category": "serif",
+        "italic": true
       },
       "scale": {
         "h1": {
