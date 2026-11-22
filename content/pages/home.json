@@ -81,7 +81,7 @@
       "style": {
         "colorTheme": "light",
         "padding": {
-          "d": "xl",
+          "d": 72,
           "m": "lg"
         }
       },

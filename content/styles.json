@@ -11,23 +11,28 @@
     "density": "comfortable",
     "shape": "round",
     "buttons": "pill-gradient",
-    "motion": "subtle",
+    "motion": "none",
     "imageTreatment": "rounded",
+    "appearance": "auto",
     "typography": {
       "heading": {
-        "family": "DM Serif Display",
+        "family": "Fraunces",
         "category": "serif",
         "italic": true
       },
       "body": {
         "family": "Inter",
         "category": "sans-serif"
+      },
+      "scale": {
+        "h1": {
+          "size": 61
+        }
       }
     },
     "layout": {
       "sectionPadding": 96
-    },
-    "appearance": "auto"
+    }
   },
   "overrides": {
     "color": {
