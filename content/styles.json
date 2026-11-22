@@ -16,7 +16,7 @@
     "appearance": "auto",
     "typography": {
       "heading": {
-        "family": "Fraunces",
+        "family": "Playfair Display",
         "category": "serif",
         "italic": true
       },
